@@ -23,6 +23,7 @@ app.get('/map/api/live-1/static', (request, response) => {
 });
 
 // Shard 2
+/*
 app.get('/map/api/live-2/war', (request, response) => {
     response.sendFile(__dirname + '/data/live-2/war.json');
 });
@@ -34,7 +35,7 @@ app.get('/map/api/live-2/dynamic', (request, response) => {
 });
 app.get('/map/api/live-2/static', (request, response) => {
     response.sendFile(__dirname + '/data/live-2/static.json');
-});
+});*/
 
 const port = 3002;
 app.listen(port, () => {
